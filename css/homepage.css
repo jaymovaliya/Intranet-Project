@@ -1,0 +1,43 @@
+.home-carousel-item{
+    height: 400px;
+    width:80%;
+    margin-left: 10%;
+
+}
+#mission-vision{
+    margin-top: 20px;
+}
+.visiontop{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+}
+.visionbottom{
+    text-align: center;
+    font-size: 18px;
+}
+#mission{
+    margin-top: 20px;
+}
+.missiontop{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+}
+#missionul{
+    margin-left: 10%;
+    width: 80%;
+}
+.missionli{
+    text-align: center;
+    display: block;
+}
+.carousel-control-prev{
+ left:50px;
+}
+.carousel-control-next
+{
+    right:50px;
+}

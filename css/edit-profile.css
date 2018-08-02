@@ -1,0 +1,15 @@
+#inp {
+    text-align: right;
+    font-size: 17px;
+}
+
+.editprofiletop {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+#submitprofile {
+    margin-bottom: 10px;
+}

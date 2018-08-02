@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intranet</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style type="text/css">
+        .myjum {
+            height: 100px;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .inp {
+            text-align: right;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function myfun() {
+            condiv = document.getElementById("scontent");
+            condiv.innerHTML = "<input class=\"form-control col-7\" type=\"text\" name=\"spname\" placeholder=\"sponsor name\"><br><input class=\"form-control col-7\" type=\"text\" name=\"spdesc\" placeholder=\"sponsor description\">";
+        }
+    </script>
+</head>
+<body>
+<div class="jumbotron myjum" id="heading">Add New Course</div>
+<form>
+
+    <div class="form-group row">
+        <label for="semester" class="col-2 col-form-label inp">Semester</label>
+        <div class="col-6">
+            <input class="form-control" type="number" name="sem">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label for="subject" class="col-2 col-form-label inp">Subject</label>
+        <div class="col-6">
+            <input class="form-control" type="text" name="subject">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label for="subject code" class="col-2 col-form-label inp">Subject code</label>
+        <div class="col-6">
+            <input class="form-control" type="text" name="subcode">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label for="faculty" class="col-2 col-form-label inp">Faculty</label>
+        <div class="col-6">
+            <input class="form-control" type="text" name="faculty">
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label for="syllabus" class="col-2 col-form-label inp">Syllabus</label>
+        <div class="col-3">
+            <input class="form-control" type="file" name="syll">
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label for="lab manual" class="col-2 col-form-label inp">Lab Manual</label>
+        <div class="col-3">
+            <input class="form-control" type="file" name="labman">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-2"></div>
+        <div class="col-3">
+            <input type="submit" name="submit" value="submit">
+        </div>
+    </div>
+
+</form>
+</body>
+</html>

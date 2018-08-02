@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" type="text/css" href="../css/events.css">
+
+</head>
+<body>
+
+<div id="event-top">
+    <div id="event-section-heading">
+        EVENTS
+    </div>
+    <div class="jumbotron" id="event-jumbotron">
+        <div id="event-filter">
+            <div class="row eventfilterrow">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 eventfilter-subheading">
+                            Filter By Year
+                        </div>
+                        <div class="col-md-4">
+                            <select class="custom-select">
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="All">All</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row eventfilterrow">
+                <div class="col-md-6 eventfilter-subheading">
+                    <div class="row">
+                        <div class="col-md-4 eventfilter-subheading">
+                            Filter Between Dates
+                        </div>
+                        <div class="col-md-3">
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" class="form-control">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-th"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            To
+                        </div>
+                        <div class="col-md-3">
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" class="form-control">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-th"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <button class="btn btn-success" id="eventapplyfilterbtn">Apply Filter</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary" id="eventexportbtn">Export</button>
+                </div>
+                <div class="col-md-6">
+                    <div id="eventexportdiv" class="hidden">
+                        <span id="exporttext">Export To :: </span>
+                        <span id="exportbtns">
+                            <button class="btn btn-info exporttypebtn" id="exportexcel">Excel</button>
+                            <button class="btn btn-info exporttypebtn" id="exportcsv">CSV</button>
+                            <button class="btn btn-info exporttypebtn" id="exportpdf">PDF</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="event-main1">
+    <div id="event-main1-container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h4 class="card-title event-info-card-title">Expert lecture on "Convergence and unified
+                                communications"</h4>
+                            <!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h4 class="card-title event-info-card-title">Industry and Institutions Interaction</h4>
+                            <!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h4 class="card-title event-info-card-title">event 1</h4>
+                            <!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h4 class="card-title event-info-card-title">event 1</h4>
+                            <!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h4 class="card-title event-info-card-title">event 1</h4>
+                            <!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="event-info-card-container">
+                    <div class="card event-info-card" data-toggle="modal" data-target="#event-Modal">
+                        <div class="card-block event-info-card-block">
+                            <h4 class="card-title event-info-card-title">event 1</h4>
+                            <!--                            <p class="card-text event-info-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="event-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog event-modal-dialog event-modal" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Expert lecture on “ Convergence and unified
+                    communications”</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-hover">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Event Description</th>
+                        <td>Some good small description about the project.. Short and SweetSome good small description
+                            about the project.. Short and SweetSome good small description about the project.. Short and
+                            SweetSome good small description about the project.. Short and Sweet
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Date From</th>
+                        <td>
+                            2 February 2017
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Date To</th>
+                        <td>
+                            2 February 2017
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Time From</th>
+                        <td>
+                            10:00 am
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Time To</th>
+                        <td>
+                            4:00 pm
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Location</th>
+                        <td>
+                            F Block - Lab 7
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Expert's Name</th>
+                        <td>
+                            Mr. India 2017
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Expert's Description</th>
+                        <td>
+                            Professor from some renowned university who is doing research somewhere and will be very
+                            good for the workshop.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sponsor</th>
+                        <td>
+                            TEQIP
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Beneficiaries</th>
+                        <td>
+                            STUDENTS
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Event Co-ordinators</th>
+                        <td>
+                            TEQIP
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Event Related Documents</th>
+                        <td>
+                            <a href="link.something">Link1</a><br>
+                            <a href="link.something">Link2</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Event Pictures</th>
+                        <td>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 event-image-container">
+                                    <img src="../img/1.jpg">
+                                </div>
+                                <div class="col-lg-6 col-md-6 event-image-container">
+                                    <img src="../img/1.jpg">
+                                </div>
+                                <div class="col-lg-6 col-md-6 event-image-container">
+                                    <img src="../img/1.jpg">
+                                </div>
+                                <div class="col-lg-6 col-md-6 event-image-container">
+                                    <img src="../img/1.jpg">
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="../js/events-main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+.facsubjtop{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+.jumbotron{
+    padding:1em;
+}
+#facsubjedit{
+    margin-top: 20px;
+}
+.hidden{
+    display: none;
+}
+.factypesel{
+    cursor: pointer;
+    width:100%;
+}
+.list-icons{
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.list-icons:hover{
+    font-size: 25px;
+}
+.downloadlinks{
+    width: auto;
+    margin-right: 10px;
+}
+#addinsbtn{
+    margin-left: 2.5%;
+    cursor: pointer;
+}
+
+#addinsfilebtn {
+    margin-left: 2.5%;
+    cursor: pointer;
+}
+
+#addfilediv {
+    margin-left: 2.5%;
+    font-size: 20px;
+}
+
+.facsubj1top {
+    font-size: 20px;
+}
+
+.ajax-file-upload-container {
+    margin: 0px;
+}

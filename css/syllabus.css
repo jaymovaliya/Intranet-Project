@@ -1,0 +1,70 @@
+
+#syllabus-section-heading{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+
+#syllabus-section-main-container1{
+    padding:15px;
+    padding-bottom: 0px;
+    background-color: #4ad365;
+}
+
+.syllabus-info-card{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.syllabus-info-card:hover{
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.syllabus-info-card-block{
+    padding: 0.75em;
+}
+
+.syllabus-section-container
+{
+    margin-bottom: 15px;
+}
+
+.syllabus-modal{
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width:80%;
+}
+
+.syllabus-image-container img{
+    height: 300px;
+    width:300px;
+}
+.syllabusfilterrow{
+    margin-bottom: 20px;
+}
+#syllabus-jumbotron{
+    padding:1em 1em;
+}
+#syllabusapplyfilterbtn{
+    width:100%;
+}
+#syllabusexportbtn{
+    width: 100%;
+}
+.exporttypebtn{
+    width:100px;
+}
+.hidden{
+    display: none;
+}
+.syallbus-optbtn{
+    width:100%;
+}
+.downloadlinks{
+    margin-right: 20px;
+    width:200px;
+}

@@ -1,0 +1,32 @@
+<!--<option value="1">CC101 - Calculus</option>
+                                <option value="2">CC141 - Fundamentals of Electronics</option>
+                                <option value="3">CC143 - Engineering Physics</option>
+                                <option value="4">CC152 - Elements of Mechanical Engineering</option>
+                                <option value="5">CC171 - Communication Skills</option>
+                                <option value="6">CC122 - Computer Workshop</option>
+                                <option value="7">CC142 - Electronics Workshop</option>-->
+								
+								
+								+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+								
+	<!--<div class="row syllabusfilterrow hidden" id="syllabus-selectsubj">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 syllabusfilter-subheading">
+                            Select Subject
+                        </div>
+                        <div class="col-md-4">
+                            <select class="custom-select">
+                                <option value="None">Select Subject</option>
+                                <option value="1">CC101 - Calculus</option>
+                                <option value="2">CC141 - Fundamentals of Electronics</option>
+                                <option value="3">CC143 - Engineering Physics</option>
+                                <option value="4">CC152 - Elements of Mechanical Engineering</option>
+                                <option value="5">CC171 - Communication Skills</option>
+                                <option value="6">CC122 - Computer Workshop</option>
+                                <option value="7">CC142 - Electronics Workshop</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>-->							

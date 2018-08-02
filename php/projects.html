@@ -1,0 +1,187 @@
+<link rel="stylesheet" type="text/css" href="css/projects.css">
+<link rel="stylesheet" type="text/css" href="css/events.css">
+<div id="projects-top">
+    <div id="projects-section-heading">
+        Projects
+    </div>
+    <div class="jumbotron" id="projects-jumbotron">
+        <div id="projects-filter">
+            <div class="row projectsfilterrow">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 projectsfilter-subheading">
+                            Filter By Type
+                        </div>
+                        <div class="col-md-4">
+                            <select class="custom-select" id="projects-select">
+                                <option value="None">Select Type</option>
+                                <option value="Final Year">Final Year</option>
+                                <option value="C">C</option>
+                                <option value="C++">C++</option>
+                                <option value="Java">Java</option>
+                                <option value="Net">.Net</option>
+                                <option value="Web Technology">Web Technology</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row projectsfilterrow hidden" id="projects-yeardiv">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 projectsfilter-subheading">
+                            Filter By Year
+                        </div>
+                        <div class="col-md-4">
+                            <select class="custom-select">
+                                <option value="All">All</option>
+                                <option value="2107">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row hidden" id="projects-filterdiv">
+                <div class="col-md-2">
+                    <button class="btn btn-success" id="projectsapplyfilterbtn">Apply Filter</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary" id="projectsexportbtn">Export</button>
+                </div>
+                <div class="col-md-6">
+                    <div id="projectsexportdiv" class="hidden">
+                        <span id="exporttext">Export To :: </span>
+                        <span id="exportbtns">
+                            <button class="btn btn-info exporttypebtn" id="exportexcel">Excel</button>
+                            <button class="btn btn-info exporttypebtn" id="exportcsv">CSV</button>
+                            <button class="btn btn-info exporttypebtn" id="exportpdf">PDF</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="projects-main1" class="hidden">
+   
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="projects-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog projects-modal-dialog projects-modal" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Expert lecture on “ Convergence and unified communications”</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-hover">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Event Description</th>
+                        <td>Some good small description about the project.. Short and SweetSome good small description about the project.. Short and SweetSome good small description about the project.. Short and SweetSome good small description about the project.. Short and Sweet</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Date From</th>
+                        <td>
+                            2 February 2017
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Date To</th>
+                        <td>
+                            2 February 2017
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Time From</th>
+                        <td>
+                            10:00 am
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Time To</th>
+                        <td>
+                            4:00 pm
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Location</th>
+                        <td>
+                            F Block - Lab 7
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Expert's Name</th>
+                        <td>
+                            Mr. India 2017
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Expert's Description</th>
+                        <td>
+                            Professor from some renowned university who is doing research somewhere and will be very good for the workshop.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sponsor</th>
+                        <td>
+                            TEQIP
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Beneficiaries</th>
+                        <td>
+                            STUDENTS
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Event Co-ordinators</th>
+                        <td>
+                            TEQIP
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Event Related Documents</th>
+                        <td>
+                            <a href="link.something">Link1</a><br>
+                            <a href="link.something">Link2</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Event Pictures</th>
+                        <td>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 projects-image-container">
+                                    <img src="../img/1.jpg">
+                                </div>
+                                <div class="col-lg-6 col-md-6 projects-image-container">
+                                    <img src="../img/1.jpg">
+                                </div>
+                                <div class="col-lg-6 col-md-6 projects-image-container">
+                                    <img src="../img/1.jpg">
+                                </div>
+                                <div class="col-lg-6 col-md-6 projects-image-container">
+                                    <img src="../img/1.jpg">
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/projects.js"></script>
